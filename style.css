@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* ページのスタイルを設定 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  color: dimgrey;
+  font-size: 15px;
+  line-height: 2;
+}
+
+/* 見出しと段落のマージンを削除 */
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+/* 画像下部の余白を削除 */
+img {
+  vertical-align: bottom;
+}
+
+/* リスト項目の削除 */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* 訪問前後の文字色の指定 */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: skyblue;
+}
+
+/* マウスポインタを載せた時にアンダーラインを表示　*/
+a:hover {
+  text-decoration: underline;
+}
+
+/* headerの位置調整 */
+header {
+  width: 960px;
+  height: 10px;
+  margin: 0 auto 0 20px;
+}
+
+/* アイコン調整 */
+.logo {
+  float: left;
+  margin-top: 20px;
+}
+
+/* メニュー項目調整 */
+.global-nav {
+  float: left;
+  margin-top: 20px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 15px;
+  list-style: none;
+}
+
+.global-nav li a {
+  color: white;
+}
+
+.global-nav li a:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+/* wrapのプロパティを解除 */
+#wrap {
+  clear: both;
+}
+
+/* コンテンツエリアを中央に揃える */
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* footerの設定 */
+footer {
+  text-align: center;
+  color: white;
+  padding: 20px; 0;
+}
+
+footer small {
+  font-size: 12px;
+}
+
+/* h1の装飾 */
+/* index h1の装飾 */
+#index h1 {
+  font-size: 80px;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#index .content {
+  margin-top: 350px;
+  margin-left: 20px;
+}
+
+#index p {
+  font-size: 16px;
+  color: white;
+}
+
+#index footer {
+  width: 960;
+  margin: 150px auto 0 auto;
+  text-align: left;
+}
+
+#index {
+  background-image: url(../images/bg-index.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+}
